@@ -12,6 +12,7 @@
 		C64C73931DE0CDD3006910E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64C73911DE0CDD3006910E8 /* Main.storyboard */; };
 		C64C73951DE0CDD3006910E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C64C73941DE0CDD3006910E8 /* Assets.xcassets */; };
 		C64C73981DE0CDD3006910E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64C73961DE0CDD3006910E8 /* LaunchScreen.storyboard */; };
+		C64C73A01DE0CF8D006910E8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64C739F1DE0CF8D006910E8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C64C73941DE0CDD3006910E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C64C73971DE0CDD3006910E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C64C73991DE0CDD3006910E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C64C739F1DE0CF8D006910E8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64C73A01DE0CF8D006910E8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		C64C73811DE0CDD3006910E8 = {
 			isa = PBXGroup;
 			children = (
+				C64C739F1DE0CF8D006910E8 /* MapKit.framework */,
 				C64C738C1DE0CDD3006910E8 /* MapPin */,
 				C64C738B1DE0CDD3006910E8 /* Products */,
 			);
@@ -253,6 +257,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.seanfulcher.MapPin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -264,6 +269,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.seanfulcher.MapPin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
