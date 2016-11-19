@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MapPinSatellite.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C64C73891DE0CDD3006910E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C64C73A31DE0DC36006910E8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
